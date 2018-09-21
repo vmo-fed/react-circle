@@ -3,22 +3,18 @@
 ### 安装
 
 ```shell
-npm i @vmo-fed/react-tab -S
+npm i @vmo-fed/react-circle -S
 ```
 
 ### 使用
 
 ```jsx
-import { TabList, Tab } from 'react-tab';
+import Circle from 'react-circle';
 
 class App extends React.Component {
   render() {
     return (
-      <TabList current="1">
-        <Tab label="tab1">tab 1 content</Tab>
-        <Tab label="tab2">tab 2 content</Tab>
-        <Tab label="tab3">tab 3 content</Tab>
-      </TabList>
+      <Circle progress={90} strokeColor={['#05a', '#0a5']} />
     );
   }
 }
