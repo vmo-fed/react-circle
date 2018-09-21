@@ -1,0 +1,34 @@
+{
+  "name": "@vmo-fed/react-circle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets @babel/preset-react src/ReactCircle.jsx --out-file build/ReactCircle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmo-fed/react-circle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmo-fed/react-circle/issues"
+  },
+  "homepage": "https://github.com/vmo-fed/react-circle#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.54",
+    "@babel/core": "^7.0.0-beta.54"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0-beta.54",
+    "babel-preset-es2015": "^6.24.1",
+    "classnames": "^2.2.6",
+    "jss": "^9.8.7",
+    "jss-preset-default": "^4.5.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1"
+  }
+}

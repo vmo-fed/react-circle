@@ -1,0 +1,5 @@
+src/dist
+src/node_modules
+node_modules
+src/.cache
+.docz
